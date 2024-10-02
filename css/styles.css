@@ -22,6 +22,8 @@ form{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    max-width: 546px;
+    padding: 16px;
 }
 
 .input-item{
