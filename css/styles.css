@@ -56,6 +56,13 @@ button{
     width: 172px;
     background-color: inherit;
     border-radius: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #090b5d;
+        border: 1px solid #090b5d;
+        color: white;
+    }
 }
 
 .primary{
