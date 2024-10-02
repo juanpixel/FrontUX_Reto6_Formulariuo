@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Ejercicio Formulario</title>
+</head>
+<body>
+
+    <main>
+        <form action="">
+
+            <div class="input-item">
+                <label for="name">Nombre Completo</label>
+                <input id="name" type="text" placeholder="Ingrese su nombre completo">
+            </div>
+    
+            <div class="input-item">
+                <label for="mail">Email</label>
+                <input id="mail" type="email" placeholder="Ej: username@correo.co">
+            </div>
+    
+            <div class="preguntas">
+                <p>¿Qué curso estás tomando en Cymetria?</p>
+                
+                <div>
+                <input id="SQL" type="radio" name="cursos">
+                <label for="SQL">SQL- SERVER</label>    
+                </div>
+                
+                <div>  
+                <input id="Frontend" type="radio" name="cursos">
+                <label for="Frontend">Frontend</label>    
+                </div>
+    
+                <div>
+                 <input id="FullStack" type="radio" name="cursos">
+                 <label for="FullStack">FullStack</label>   
+                </div>
+    
+                
+            </div>
+            
+            <div class="preguntas">
+                <p>¿Cuales lenguajes de programación te gustaría seguir aprendiendo?</p>
+                <div>
+                    <input id="Python" type="checkbox" name="lenguaje">
+                    <label for="Python">Python</label>
+                </div>
+
+                <div>
+                    <input id="JavaScript" type="checkbox"  name="lenguaje">
+                    <label for="JavaScript">JavaScript</label>    
+                </div>
+
+                <div>
+                    <input id="Net" type="checkbox"  name="lenguaje">
+                    <label for="Net">Net</label>
+                </div>
+
+                <div>
+                    <input id="Java" type="checkbox"  name="lenguaje">
+                    <label for="Java">Java</label>
+                </div>
+
+                <div>
+                    <input id="NodeJs" type="checkbox"  name="lenguaje">
+                    <label for="NodeJs">NodeJs</label>
+                </div>
+
+                <div>
+                    <input id="PHP" type="checkbox"  name="lenguaje">
+                    <label for="PHP">PHP</label>
+                </div>
+
+            </div>
+    
+            <div class="cta">
+                <button class="secundary" type="reset">Cancelar</button>
+                <button class="primary" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>

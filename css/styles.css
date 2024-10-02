@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Noto Sans", system-ui;
+    color: #666666;
+    font-size: 16px;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.input-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    & label{
+        font-size: 12px;
+    }
+
+    & input{
+        padding: 16px;
+        border-radius: 8px;
+        border: 1px solid #CCCCCC
+    };
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 16px;
+    width: 172px;
+    background-color: inherit;
+    border-radius: 8px;
+}
+
+.primary{
+    background-color: #5D5FEF;
+    border: 1px solid #5D5FEF;
+    color: white;
+}
+
+.secundary{
+    background-color: white;
+    border: 1px solid #5D5FEF;
+    color: #5D5FEF;
+}
+
